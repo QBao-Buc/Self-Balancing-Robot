@@ -1,0 +1,15 @@
+PCB Prototype Development Board, 6x8 cm
+
+Link to CAD files:
+https://grabcad.com/library/pcb-prototype-development-board-6x8-cm-1
+
+Links to vendors:
+https://www.amazon.com/Single-Sided-Universal-Packs-12x18/dp/B08WPYPST7
+https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F
+
+Type: Double Side Tinned Prototype Universal DIY PCB Board
+Dimension: (WxLxT) 60x80x1.6mm, hole pitch 2.54mm, hole diameter 0.95mm.
+Usage: Both of the two sides have pads with a hole in communication, and can be welded components.
+Applications: For point to point DIY soldering, Be widely used in teaching experiments, product research and development, set up the DEMO board, etc.
+
+#CAD #SolidWorks #3dmodeling #developmentboard #prototypeboard #pcbboard
