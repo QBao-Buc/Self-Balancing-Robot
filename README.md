@@ -35,6 +35,10 @@ Self-Balancing-Robot/
 ├── LICENSE
 ├── README.md
 ├── CHANGELOG.md
+├── docs/                     # Tài liệu tham khảo, Datasheet & Handbook
+│   ├── datasheets/           # Tập hợp Datasheet linh kiện (STM32, MPU6050, TB6612...)
+│   ├── pinout/               # Sơ đồ gán chân & Pinout chi tiết
+│   └── handbook/             # Nhật ký/Ghi chép quá trình phát triển & Debug
 ├── firmware/                 # Mã nguồn lập trình STM32 (CubeMX + Keil C)
 │   ├── Core/
 │   ├── Drivers/
@@ -48,6 +52,13 @@ Self-Balancing-Robot/
 │   └── BOM.md                # Danh mục linh kiện chi tiết
 └── mechanical/               # Thiết kế cơ khí & Thân vỏ
     ├── cad/
+    │   ├── circuit_parts/    # Mô hình 3D linh kiện điện tử
+    │   │   ├── battery/      # Khối 3D Pin LiPo
+    │   │   ├── buck/         # Khối 3D mạch hạ áp Buck
+    │   │   ├── dong_co/      # Khối 3D động cơ Encoder
+    │   │   ├── hc05/         # Khối 3D module Bluetooth HC-05
+    │   │   ├── mpu/          # Khối 3D cảm biến MPU6050
+    │   │   └── pcb/          # Khối 3D bo mạch PCB
     │   └── stl_print/        # File .STL phục vụ in 3D
     ├── drawings/             # Bản vẽ 3D tổng thể (.STEP) & bản vẽ 2D (.PDF)
     └── README.md             # Hướng dẫn in 3D & chế tạo
