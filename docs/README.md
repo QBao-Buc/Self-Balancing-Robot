@@ -1,4 +1,3 @@
-cat << 'EOF' > docs/README.md
 # 📚 Tài liệu tham khảo & Nhật ký phát triển (Docs)
 
 Thư mục này chứa toàn bộ các tài liệu kỹ thuật, datasheet linh kiện, bản đồ gán chân (Pinout Mapping) và tài liệu nhật ký ghi chép quá trình nghiên cứu, chế tạo robot tự cân bằng.
