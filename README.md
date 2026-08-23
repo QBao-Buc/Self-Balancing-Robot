@@ -29,7 +29,7 @@ Dự án này tập trung vào việc thiết kế và chế tạo một robot 2
 
 ## 📂 Cấu trúc Repository
 
-```plaintext
+plaintext
 Self-Balancing-Robot/
 ├── .gitignore
 ├── LICENSE
@@ -52,38 +52,42 @@ Self-Balancing-Robot/
     ├── drawings/             # Bản vẽ 3D tổng thể (.STEP) & bản vẽ 2D (.PDF)
     └── README.md             # Hướng dẫn in 3D & chế tạo
 
-🚀 Tính năng chính của Robot
+## 🚀 Tính năng chính của Robot
 Giao tiếp & Debug: Gửi/nhận dữ liệu không dây qua Bluetooth HC-05, theo dõi thông số thực thời trên máy tính qua phần mềm Tera Term 5 (MyLib/robot_debug).
 
 Cơ chế bảo vệ an toàn:
 Dead Angle Protection: Tự động ngắt động cơ khi xe nghiêng quá góc cho phép (tránh trôi xe hoặc quá tải khi đổ).
 Bảo vệ điện áp/Dòng: (Đang hoàn thiện)
+
 Tính năng phụ trợ:
 Điều khiển còi kèn (Buzzer) phát tín hiệu cảnh báo.
 Hiệu ứng đèn LED trạng thái (nháy LED báo lỗi / chế độ hoạt động).
 (Lưu ý: Các tính năng trên đang tiếp tục được tối ưu và hoàn thiện trong code).
 
-📋 Danh mục chi tiết cần chuẩn bị (BOM)
+## 📋 Danh mục chi tiết cần chuẩn bị (BOM)
 Để xem danh sách đầy đủ tất cả linh kiện điện tử, động cơ, cảm biến và vật tư cơ khí cần chuẩn bị cho dự án:
 👉 Mời bạn truy cập vào file: hardware/BOM.md
-🛠️ Sơ đồ nguyên lý & Bảng chân đấu nối (Pinout)
-1. Sơ đồ nguyên lý (Schematic)
+
+---
+
+## 🛠️ Sơ đồ nguyên lý & Bảng chân đấu nối (Pinout)
+### 1. Sơ đồ nguyên lý (Schematic)
 (Phần này để trống - Cập nhật sơ đồ nguyên lý hoặc đường dẫn bản vẽ sau)
 
-2. Sơ đồ đấu nối phần cứng
+### 2. Sơ đồ đấu nối phần cứng
 Chi tiết đấu nối giữa STM32, TB6612, Động cơ Encoder và Nguồn:
 
-📖 Hướng dẫn lắp ráp & Vận hành
-1. Phần cơ khí & Thân vỏ
+## 📖 Hướng dẫn lắp ráp & Vận hành
+### 1. Phần cơ khí & Thân vỏ
 In tất cả các file .STL nằm tại mechanical/cad/stl_print/ và xem bản vẽ lắp ráp tổng thể .STEP tại mechanical/drawings/.
 
-2. Phần cứng & Nguồn
+### 2. Phần cứng & Nguồn
 (Phần này để trống - Cập nhật hướng dẫn đấu nối chi tiết)
 
-3. Nạp code Firmware
+### 3. Nạp code Firmware
 Mở project tại firmware/MDK-ARM/STM32F103_BalanceRobot.uvprojx bằng Keil uVision 5.
 
 Build và nạp code xuống STM32 bằng mạch nạp ST-Link V2.
 
-📄 Giấy phép (License)
+## 📄 Giấy phép (License)
 Dự án được phân phối dưới giấy phép MIT License.
