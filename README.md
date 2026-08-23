@@ -29,7 +29,7 @@ Dự án này tập trung vào việc thiết kế và chế tạo một robot 2
 
 ## 📂 Cấu trúc Repository
 
-plaintext
+```plaintext
 Self-Balancing-Robot/
 ├── .gitignore
 ├── LICENSE
@@ -51,7 +51,8 @@ Self-Balancing-Robot/
     │   └── stl_print/        # File .STL phục vụ in 3D
     ├── drawings/             # Bản vẽ 3D tổng thể (.STEP) & bản vẽ 2D (.PDF)
     └── README.md             # Hướng dẫn in 3D & chế tạo
-
+  
+```
 ## 🚀 Tính năng chính của Robot
 Giao tiếp & Debug: Gửi/nhận dữ liệu không dây qua Bluetooth HC-05, theo dõi thông số thực thời trên máy tính qua phần mềm Tera Term 5 (MyLib/robot_debug).
 
